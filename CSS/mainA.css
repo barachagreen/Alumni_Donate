@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    body{
+    background-color: #ffff;
+    margin: 0px;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+    justify-content: center;
+}
+
+/*  THIS CONTAINS THE NAVIGATION BAR, TEXT, AND logo  */
+.head-top{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 352px;
+    margin: 0px;
+    padding-bottom: 50px;
+  }
+ 
+  .container{
+    background-image: url(../image/image\ 2.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+ }
+ 
+ .logo{
+    width: 142px;
+    height: 69px;
+ }
+ 
+ 
+ .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    text-align: center;
+    padding-bottom: 50px;
+ }
+ 
+ /*     HEADER TEXT BADGWERW     */
+ .header-text h1{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+ }
+ 
+ .header-text h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    padding-bottom: 20px ;
+ 
+ }
+
+ /*   FORM  */
+.Sign-up{
+    width: auto;
+    font-weight: 400;
+    font-size:x-large;
+    padding-top:20px ;
+}
+
+.header-text h1{
+    font-size: 40px;
+    font-weight: 50;
+    line-height: normal;
+}
+
+.header-text h4{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 29px;
+}
+
+ul{
+    display: flex;
+}
+
+
+.container .nav-link{
+    padding: auto;
+}
+
+.nav-link{
+    display: flex;
+    float: none;
+    padding-left: 50%;
+    justify-content: space-between;
+    color: #ffffff;
+ }
+
+.container .nav-link u{   
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-field{
+    display: inline-flex ;
+    flex-direction: column;
+    color: #000;
+    margin-left: 0px;
+    width: 100%;    
+}
+
+.input{
+    height: 30px;
+    width: 100%;
+    margin-left: 2px;
+    border-radius: 9px;
+    color: #282828;
+    padding: 0;
+    margin-bottom: 20px;
+    background: rgba(255, 2555, 255, 0.1);
+ }
+.alumni{
+    justify-content:bor center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.alumni label{
+    width: auto;
+    font-size: large;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: start;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    letter-spacing: 1.5px;    
+ }
+
+li a{
+    display: flex;
+    color: #ffffff;
+    font-weight: 10;
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+ }
+
+/*SELECTOR FOR GENDER*/
+.custom-select{
+    content:"";
+    position: absolute;
+    top:0 px;
+    border-color: indigo;
+    color: #092c4c;
+    line-height: 5px;
+    height: 32px;
+    width: 30px;
+    border-color: #092c4c transparent;
+    margin-bottom: 200px;
+}
+
+.custom-select select{
+    margin-bottom: 20px;
+}
+
+.header-text button{
+    border: 30px;
+    outline: 0px;
+    width: 300px;
+    padding-bottom: 0px;
+
+}
+
+.header-text input{
+    background-color: #fff;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.fa{
+    color: #282828;
+    font-size: 20px;
+}
+
+.action{
+    text-align: center;
+    margin-left:opx;
+    font-weight: bold;
+ }
+
+ .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#ffffff;
+    text-align: center;
+    width: 100%;
+ }
+
+/* THIS IS THE SIGN UP BOTTON*/
+ .submit{
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 87%;
+    background: rgba(255, 2555, 255, 0.7);
+    cursor: pointer;
+    transition: .3s;
+    color: #ffffff;
+    background-color: #319dff;
+    font-size: larger;
+    margin-left: 110px; 
+    margin: auto;
+ }
+ 
+.submit:hover{
+    background-color: #092c4c;
+}
+
+li a:hover{
+    color:#092c4c;
+}
+
+p{
+    font-size: 50px ;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+    padding-left: auto;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 2px solid gray;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 10px;
+}
